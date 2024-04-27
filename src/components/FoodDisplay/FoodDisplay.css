@@ -1,0 +1,20 @@
+.food-display {
+  margin-top: 30px;
+}
+.food-display h2 {
+  font-size: max(2vw, 24px);
+  font-weight: 600;
+}
+
+.food-display-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+  }
+/* repeat(): This function is used to repeat a pattern a specified number of times. It takes two parameters: the number of times to repeat the pattern and the pattern itself.
+
+auto-fill: This keyword tells the grid container to create as many grid tracks as possible while still fitting them within the container's width. It fills the available space with as many columns as possible without overflowing.
+
+minmax(240px, 1fr): This function defines a size range for the grid tracks. It specifies that each grid track can be a minimum of 240 pixels wide and a maximum of 1 fraction unit (fr). The fr unit distributes the available space in the grid container equally among the tracks. */
